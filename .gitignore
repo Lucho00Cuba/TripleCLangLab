@@ -1,0 +1,60 @@
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore binary files
+*.bin
+*.lock
+
+# Ignore object files and directories
+*.o
+*.obj
+*.a
+*.out
+*.suo
+*.user
+*.vcxproj.user
+*.ncb
+*.sdf
+*.pdb
+*.ilk
+*.opendb
+
+# Ignore generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+.vscode/
+.idea/
+*.sln
+*.xcodeproj/
+*.xcworkspace/
+*.swp
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore environment-specific files
+.env
+.env.*
+.vs/
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows folder configuration files
+Thumbs.db
+ehthumbs.db
+
+# Ignore Visual Studio Code settings
+.vscode/
